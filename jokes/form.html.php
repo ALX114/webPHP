@@ -1,5 +1,5 @@
 <?php include_once $_SERVER['DOCUMENT_ROOT'] .
-    '/webPHP/includes/helpers.inc.php'; ?>
+    '/includes/helpers.inc.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
   <head>

@@ -1,5 +1,5 @@
 <?php
-include_once $_SERVER['DOCUMENT_ROOT'] . '/webPHP/includes/magicquotes.inc.php';
+include_once $_SERVER['DOCUMENT_ROOT'] . '/includes/magicquotes.inc.php';
 
 if (isset($_GET['add']))
 {
@@ -16,7 +16,7 @@ if (isset($_GET['add']))
 
 if (isset($_GET['addform']))
 {
-  include $_SERVER['DOCUMENT_ROOT'] . '/webPHP/includes/db.inc.php';
+  include $_SERVER['DOCUMENT_ROOT'] . '/includes/db.inc.php';
 
   try
   {
@@ -39,7 +39,7 @@ if (isset($_GET['addform']))
 
 if (isset($_POST['action']) and $_POST['action'] == 'Изменить')
 {
-  include $_SERVER['DOCUMENT_ROOT'] . '/webPHP/includes/db.inc.php';
+  include $_SERVER['DOCUMENT_ROOT'] . '/includes/db.inc.php';
 
   try
   {
@@ -69,7 +69,7 @@ if (isset($_POST['action']) and $_POST['action'] == 'Изменить')
 
 if (isset($_GET['editform']))
 {
-  include $_SERVER['DOCUMENT_ROOT'] . '/webPHP/includes/db.inc.php';
+  include $_SERVER['DOCUMENT_ROOT'] . '/includes/db.inc.php';
 
   try
   {
@@ -94,7 +94,7 @@ if (isset($_GET['editform']))
 
 if (isset($_POST['action']) and $_POST['action'] == 'Удалить')
 {
-  include $_SERVER['DOCUMENT_ROOT'] . '/webPHP/includes/db.inc.php';
+  include $_SERVER['DOCUMENT_ROOT'] . '/includes/db.inc.php';
 
   try
   {
@@ -155,7 +155,7 @@ if (isset($_POST['action']) and $_POST['action'] == 'Удалить')
   exit();
 }
 
-include $_SERVER['DOCUMENT_ROOT'] . '/webPHP/includes/db.inc.php';
+include $_SERVER['DOCUMENT_ROOT'] . '/includes/db.inc.php';
 
 try
 {

@@ -1,6 +1,6 @@
 <?php
 
-include $_SERVER['DOCUMENT_ROOT'] .  '/webPHP/includes/helpers.inc.php';
+include $_SERVER['DOCUMENT_ROOT'] .  '/includes/helpers.inc.php';
 
 $name = 'MySQLConnect';
 $password = 'UltraLow1337';
